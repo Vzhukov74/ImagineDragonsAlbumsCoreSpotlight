@@ -8,20 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		0413E1A52216CFA9004CF569 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413E1A42216CFA9004CF569 /* AppDelegate.swift */; };
-		0413E1A72216CFA9004CF569 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413E1A62216CFA9004CF569 /* ViewController.swift */; };
+		0413E1A72216CFA9004CF569 /* AlbumsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413E1A62216CFA9004CF569 /* AlbumsListViewController.swift */; };
 		0413E1AA2216CFA9004CF569 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0413E1A82216CFA9004CF569 /* Main.storyboard */; };
 		0413E1AC2216CFAA004CF569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0413E1AB2216CFAA004CF569 /* Assets.xcassets */; };
 		0413E1AF2216CFAA004CF569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0413E1AD2216CFAA004CF569 /* LaunchScreen.storyboard */; };
+		0413E1BA2216D058004CF569 /* AlbumDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413E1B92216D058004CF569 /* AlbumDetailViewController.swift */; };
+		0413E1BD2216D07D004CF569 /* IDAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413E1BC2216D07D004CF569 /* IDAlbum.swift */; };
+		0413E1BF2216D4EB004CF569 /* AlbumsListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413E1BE2216D4EB004CF569 /* AlbumsListModel.swift */; };
+		0413E1C12216D530004CF569 /* AlbumDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413E1C02216D530004CF569 /* AlbumDetailModel.swift */; };
+		0413E1C52216D5A3004CF569 /* AlbumViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413E1C32216D5A3004CF569 /* AlbumViewCell.swift */; };
+		0413E1C62216D5A3004CF569 /* AlbumViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0413E1C42216D5A3004CF569 /* AlbumViewCell.xib */; };
+		0413E1CC2216E039004CF569 /* Smoke+Mirrors.png in Resources */ = {isa = PBXBuildFile; fileRef = 0413E1C82216E02E004CF569 /* Smoke+Mirrors.png */; };
+		0413E1CD2216E039004CF569 /* NightVisions.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0413E1C92216E038004CF569 /* NightVisions.jpeg */; };
+		0413E1CE2216E039004CF569 /* Evolve.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0413E1CA2216E038004CF569 /* Evolve.jpg */; };
+		0413E1CF2216E039004CF569 /* Origins.png in Resources */ = {isa = PBXBuildFile; fileRef = 0413E1CB2216E039004CF569 /* Origins.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0413E1A12216CFA8004CF569 /* ImagineDragonsAlbumsCoreSpotlight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImagineDragonsAlbumsCoreSpotlight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0413E1A42216CFA9004CF569 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0413E1A62216CFA9004CF569 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0413E1A62216CFA9004CF569 /* AlbumsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsListViewController.swift; sourceTree = "<group>"; };
 		0413E1A92216CFA9004CF569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0413E1AB2216CFAA004CF569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0413E1AE2216CFAA004CF569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0413E1B02216CFAA004CF569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0413E1B92216D058004CF569 /* AlbumDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailViewController.swift; sourceTree = "<group>"; };
+		0413E1BC2216D07D004CF569 /* IDAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDAlbum.swift; sourceTree = "<group>"; };
+		0413E1BE2216D4EB004CF569 /* AlbumsListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsListModel.swift; sourceTree = "<group>"; };
+		0413E1C02216D530004CF569 /* AlbumDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailModel.swift; sourceTree = "<group>"; };
+		0413E1C32216D5A3004CF569 /* AlbumViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewCell.swift; sourceTree = "<group>"; };
+		0413E1C42216D5A3004CF569 /* AlbumViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumViewCell.xib; sourceTree = "<group>"; };
+		0413E1C82216E02E004CF569 /* Smoke+Mirrors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Smoke+Mirrors.png"; sourceTree = "<group>"; };
+		0413E1C92216E038004CF569 /* NightVisions.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NightVisions.jpeg; sourceTree = "<group>"; };
+		0413E1CA2216E038004CF569 /* Evolve.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Evolve.jpg; sourceTree = "<group>"; };
+		0413E1CB2216E039004CF569 /* Origins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Origins.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +74,72 @@
 		0413E1A32216CFA9004CF569 /* ImagineDragonsAlbumsCoreSpotlight */ = {
 			isa = PBXGroup;
 			children = (
+				0413E1C72216E020004CF569 /* covers */,
+				0413E1C22216D57F004CF569 /* cell */,
+				0413E1BB2216D05F004CF569 /* models */,
+				0413E1B82216CFF0004CF569 /* controllers */,
+				0413E1B72216CFDC004CF569 /* storyboard */,
+				0413E1B62216CFCD004CF569 /* common */,
 				0413E1A42216CFA9004CF569 /* AppDelegate.swift */,
-				0413E1A62216CFA9004CF569 /* ViewController.swift */,
-				0413E1A82216CFA9004CF569 /* Main.storyboard */,
-				0413E1AB2216CFAA004CF569 /* Assets.xcassets */,
-				0413E1AD2216CFAA004CF569 /* LaunchScreen.storyboard */,
 				0413E1B02216CFAA004CF569 /* Info.plist */,
 			);
 			path = ImagineDragonsAlbumsCoreSpotlight;
+			sourceTree = "<group>";
+		};
+		0413E1B62216CFCD004CF569 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				0413E1AB2216CFAA004CF569 /* Assets.xcassets */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		0413E1B72216CFDC004CF569 /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0413E1A82216CFA9004CF569 /* Main.storyboard */,
+				0413E1AD2216CFAA004CF569 /* LaunchScreen.storyboard */,
+			);
+			path = storyboard;
+			sourceTree = "<group>";
+		};
+		0413E1B82216CFF0004CF569 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0413E1A62216CFA9004CF569 /* AlbumsListViewController.swift */,
+				0413E1B92216D058004CF569 /* AlbumDetailViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		0413E1BB2216D05F004CF569 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				0413E1BC2216D07D004CF569 /* IDAlbum.swift */,
+				0413E1BE2216D4EB004CF569 /* AlbumsListModel.swift */,
+				0413E1C02216D530004CF569 /* AlbumDetailModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		0413E1C22216D57F004CF569 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				0413E1C32216D5A3004CF569 /* AlbumViewCell.swift */,
+				0413E1C42216D5A3004CF569 /* AlbumViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		0413E1C72216E020004CF569 /* covers */ = {
+			isa = PBXGroup;
+			children = (
+				0413E1C82216E02E004CF569 /* Smoke+Mirrors.png */,
+				0413E1CA2216E038004CF569 /* Evolve.jpg */,
+				0413E1C92216E038004CF569 /* NightVisions.jpeg */,
+				0413E1CB2216E039004CF569 /* Origins.png */,
+			);
+			path = covers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +202,12 @@
 			files = (
 				0413E1AF2216CFAA004CF569 /* LaunchScreen.storyboard in Resources */,
 				0413E1AC2216CFAA004CF569 /* Assets.xcassets in Resources */,
+				0413E1CE2216E039004CF569 /* Evolve.jpg in Resources */,
+				0413E1CD2216E039004CF569 /* NightVisions.jpeg in Resources */,
+				0413E1C62216D5A3004CF569 /* AlbumViewCell.xib in Resources */,
+				0413E1CF2216E039004CF569 /* Origins.png in Resources */,
 				0413E1AA2216CFA9004CF569 /* Main.storyboard in Resources */,
+				0413E1CC2216E039004CF569 /* Smoke+Mirrors.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +218,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0413E1A72216CFA9004CF569 /* ViewController.swift in Sources */,
+				0413E1A72216CFA9004CF569 /* AlbumsListViewController.swift in Sources */,
 				0413E1A52216CFA9004CF569 /* AppDelegate.swift in Sources */,
+				0413E1C12216D530004CF569 /* AlbumDetailModel.swift in Sources */,
+				0413E1BD2216D07D004CF569 /* IDAlbum.swift in Sources */,
+				0413E1C52216D5A3004CF569 /* AlbumViewCell.swift in Sources */,
+				0413E1BF2216D4EB004CF569 /* AlbumsListModel.swift in Sources */,
+				0413E1BA2216D058004CF569 /* AlbumDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
