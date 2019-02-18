@@ -2,7 +2,6 @@
 //  IDAlbum.swift
 //  ImagineDragonsAlbumsCoreSpotlight
 
-import Foundation
 import UIKit
 
 class IDAlbums {

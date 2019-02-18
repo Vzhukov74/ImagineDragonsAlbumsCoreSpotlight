@@ -28,7 +28,7 @@ class AlbumsListViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let identifier = segue.identifier else { return }
         if identifier == "ShowAlbumDetails" {
-            guard let vc = segue.destination as?  AlbumDetailViewController else { return }
+            guard let vc = segue.destination as? AlbumDetailViewController else { return }
             
             let album = model.albums[selectedIndex]
             let dataiModel = AlbumDetailModel(with: album)
