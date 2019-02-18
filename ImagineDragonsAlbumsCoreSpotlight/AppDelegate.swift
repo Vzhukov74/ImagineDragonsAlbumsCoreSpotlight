@@ -3,6 +3,8 @@
 //  ImagineDragonsAlbumsCoreSpotlight
 
 import UIKit
+import CoreSpotlight
+import MobileCoreServices
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
