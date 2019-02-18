@@ -23,6 +23,8 @@ class AlbumsListViewController: UIViewController {
         super.viewDidLoad()
         
         self.title = "Albums"
+        
+        SpotlightManager.setupSpotlight(with: model.albums, and: "imagineDragonsAlbums")
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
