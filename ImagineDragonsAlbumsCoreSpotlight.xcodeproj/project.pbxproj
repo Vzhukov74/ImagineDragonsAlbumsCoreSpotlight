@@ -22,6 +22,8 @@
 		0413E1CD2216E039004CF569 /* NightVisions.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0413E1C92216E038004CF569 /* NightVisions.jpeg */; };
 		0413E1CE2216E039004CF569 /* Evolve.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0413E1CA2216E038004CF569 /* Evolve.jpg */; };
 		0413E1CF2216E039004CF569 /* Origins.png in Resources */ = {isa = PBXBuildFile; fileRef = 0413E1CB2216E039004CF569 /* Origins.png */; };
+		044A59D9221AC5E00039FBB2 /* SpotlightManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A59D8221AC5E00039FBB2 /* SpotlightManager.swift */; };
+		044A59DC221AC5F80039FBB2 /* CoreSpotlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044A59DB221AC5F80039FBB2 /* CoreSpotlight.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		0413E1C92216E038004CF569 /* NightVisions.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NightVisions.jpeg; sourceTree = "<group>"; };
 		0413E1CA2216E038004CF569 /* Evolve.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Evolve.jpg; sourceTree = "<group>"; };
 		0413E1CB2216E039004CF569 /* Origins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Origins.png; sourceTree = "<group>"; };
+		044A59D8221AC5E00039FBB2 /* SpotlightManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotlightManager.swift; sourceTree = "<group>"; };
+		044A59DB221AC5F80039FBB2 /* CoreSpotlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSpotlight.framework; path = System/Library/Frameworks/CoreSpotlight.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044A59DC221AC5F80039FBB2 /* CoreSpotlight.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +65,7 @@
 			children = (
 				0413E1A32216CFA9004CF569 /* ImagineDragonsAlbumsCoreSpotlight */,
 				0413E1A22216CFA9004CF569 /* Products */,
+				044A59DA221AC5F80039FBB2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +80,7 @@
 		0413E1A32216CFA9004CF569 /* ImagineDragonsAlbumsCoreSpotlight */ = {
 			isa = PBXGroup;
 			children = (
+				044A59D7221AC5AE0039FBB2 /* managers */,
 				0413E1C72216E020004CF569 /* covers */,
 				0413E1C22216D57F004CF569 /* cell */,
 				0413E1BB2216D05F004CF569 /* models */,
@@ -140,6 +147,22 @@
 				0413E1CB2216E039004CF569 /* Origins.png */,
 			);
 			path = covers;
+			sourceTree = "<group>";
+		};
+		044A59D7221AC5AE0039FBB2 /* managers */ = {
+			isa = PBXGroup;
+			children = (
+				044A59D8221AC5E00039FBB2 /* SpotlightManager.swift */,
+			);
+			path = managers;
+			sourceTree = "<group>";
+		};
+		044A59DA221AC5F80039FBB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				044A59DB221AC5F80039FBB2 /* CoreSpotlight.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +243,7 @@
 			files = (
 				0413E1A72216CFA9004CF569 /* AlbumsListViewController.swift in Sources */,
 				0413E1A52216CFA9004CF569 /* AppDelegate.swift in Sources */,
+				044A59D9221AC5E00039FBB2 /* SpotlightManager.swift in Sources */,
 				0413E1C12216D530004CF569 /* AlbumDetailModel.swift in Sources */,
 				0413E1BD2216D07D004CF569 /* IDAlbum.swift in Sources */,
 				0413E1C52216D5A3004CF569 /* AlbumViewCell.swift in Sources */,

@@ -15,7 +15,7 @@ class AlbumsListViewController: UIViewController {
         }
     }
     
-    private var selectedIndex: Int!
+    private var selectedID: Int!
     
     let model = AlbumsListModel()
     
@@ -23,18 +23,26 @@ class AlbumsListViewController: UIViewController {
         super.viewDidLoad()
         
         self.title = "Albums"
+        
+        SpotlightManager.setupSpotlight(with: model.albums, and: "imagineDragonsAlbums")
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let identifier = segue.identifier else { return }
         if identifier == "ShowAlbumDetails" {
-            guard let vc = segue.destination as?  AlbumDetailViewController else { return }
+            guard let vc = segue.destination as? AlbumDetailViewController else { return }
+            guard let album = model.albums.filter({ $0.id == self.selectedID }).first else { return }
             
-            let album = model.albums[selectedIndex]
             let dataiModel = AlbumDetailModel(with: album)
             
             vc.model = dataiModel
         }
+    }
+    
+    func showDetail(for id: Int) {
+        self.selectedID = id
+        
+        self.performSegue(withIdentifier: "ShowAlbumDetails", sender: "nil")
     }
 }
 
@@ -55,7 +63,8 @@ extension AlbumsListViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-        self.selectedIndex = indexPath.row
+        let index = indexPath.row
+        self.selectedID = self.model.albums[index].id
         
         self.performSegue(withIdentifier: "ShowAlbumDetails", sender: "nil")
     }
